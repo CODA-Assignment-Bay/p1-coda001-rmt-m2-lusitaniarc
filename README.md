@@ -1,5 +1,5 @@
  - data source: https://www.kaggle.com/datasets/iamsouravbanerjee/data-science-salaries-2023/data
- - tableau link: https://public.tableau.com/app/profile/lusitania.ragil.cahyaningsih/viz/P1M2_lusitania/avg_salary?publish=yes
+ - tableau link: https://public.tableau.com/app/profile/lusitania.ragil.cahyaningsih/viz/P1M2_lusitania/dash_viz?publish=yes
  
 
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/gFhvFElF)
