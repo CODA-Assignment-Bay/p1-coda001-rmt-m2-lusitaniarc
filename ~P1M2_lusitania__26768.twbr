@@ -21,7 +21,7 @@
     <WorksheetBackgroundTransparency />
     <ZoneBackgroundTransparency />
   </document-format-change-manifest>
-  <repository-location derived-from='https://vizhub/workbooks/P1M2_lusitania?rev=1.8' id='P1M2_lusitania' path='/workbooks' revision='2.7' />
+  <repository-location derived-from='https://vizhub/workbooks/P1M2_lusitania?rev=1.8' id='P1M2_lusitania' path='/workbooks' revision='3.2' />
   <preferences>
     <preference name='ui.encoding.shelf.height' value='24' />
     <preference name='ui.shelf.height' value='26' />
@@ -595,7 +595,7 @@
       <layout-options>
         <title>
           <formatted-text>
-            <run bold='true' fontname='Tableau Semibold' fontsize='8'>Avg Salary  &lt;</run>
+            <run bold='true' fontname='Tableau Semibold' fontsize='8'>Salary  &lt;</run>
             <run bold='true' fontname='Tableau Semibold' fontsize='8'>[federated.02si0cv1osee2y106vwwi1xcl13f].[none:Job Title:nk]</run>
             <run bold='true' fontname='Tableau Semibold' fontsize='8'>&gt;</run>
           </formatted-text>
@@ -657,9 +657,13 @@
       <layout-options>
         <title>
           <formatted-text>
-            <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='8'>Here is the translation of the text into English:</run>
-            <run>Æ&#10;</run>
-            <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='8'>&quot;In today&apos;s digital era, the profession of Data Scientist is rapidly growing and has become one of the most sought-after jobs across various industries. Analyzing the salary of a Data Scientist is not only important for individuals working in this field, but also for companies and organizations that want to attract and retain top talent.&quot;</run>
+            <run fontalignment='1' fontcolor='#ffffff' fontname='Eras Medium ITC' fontsize='8'>Di era </run>
+            <run fontalignment='1' fontcolor='#c290b4' fontname='Eras Medium ITC' fontsize='8'>digital</run>
+            <run fontalignment='1' fontcolor='#ffffff' fontname='Eras Medium ITC' fontsize='8'> saat ini, profesi Data Scientist semakin </run>
+            <run fontalignment='1' fontcolor='#d4a6c8' fontname='Eras Medium ITC' fontsize='8'>berkembang pesat</run>
+            <run fontalignment='1' fontcolor='#ffffff' fontname='Eras Medium ITC' fontsize='8'> dan menjadi salah satu pekerjaan yang paling dicari di berbagai industri. Menganalisis data gaji seorang data scientist bukan hanya penting bagi individu yang bekerja di bidang ini, tetapi juga bagi perusahaan dan lembaga yang ingin </run>
+            <run fontalignment='1' fontcolor='#d4a6c8' fontname='Eras Medium ITC' fontsize='8'>menarik dan mempertahankan talenta</run>
+            <run fontalignment='1' fontcolor='#ffffff' fontname='Eras Medium ITC' fontsize='8'> terbaiknya.</run>
           </formatted-text>
         </title>
       </layout-options>
@@ -686,7 +690,7 @@
       <layout-options>
         <title>
           <formatted-text>
-            <run fontcolor='#e799b3' fontname='Cooper Black' fontsize='18'>Data Scientist Salary Analysis Dashboard</run>
+            <run fontcolor='#d3b348' fontname='Cooper Black' fontsize='18'>Data Scientist Salary Analysis Dashboard</run>
           </formatted-text>
         </title>
       </layout-options>
@@ -764,7 +768,7 @@
             <mark-sizing custom-mark-size-in-axis-units='1.0' mark-alignment='mark-alignment-left' mark-sizing-setting='marks-scaling-on' use-custom-mark-size='false' />
             <style>
               <style-rule element='mark'>
-                <format attr='mark-color' value='#ffaaff' />
+                <format attr='mark-color' value='#c290b4' />
               </style-rule>
             </style>
           </pane>
@@ -1278,8 +1282,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='39' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='97264' id='38' param='vert' type-v2='layout-flow' w='97538' x='1231' y='1368'>
+            <zone h='100000' id='51' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97264' id='50' param='vert' type-v2='layout-flow' w='97538' x='1231' y='1368'>
                 <zone fixed-size='280' h='33333' id='3' is-fixed='true' name='an_desc' w='33231' x='5077' y='5641'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -1365,23 +1369,23 @@
           </zone-style>
         </zone>
         <zone h='7500' id='6' mode='compact' param='[Parameters].[Parameter 3]' type-v2='paramctrl' w='11682' x='85234' y='11607' />
-        <zone h='38036' id='1' name='par_salary' w='43645' x='53458' y='23750' />
-        <zone h='13036' id='11' mode='slider' name='par_salary' param='[federated.02si0cv1osee2y106vwwi1xcl13f].[none:Job Title:nk]' type-v2='filter' values='database' w='31308' x='53084' y='11250' />
-        <zone h='51071' id='16' name='country_salary' w='26916' x='26449' y='11786' />
+        <zone h='38036' id='1' name='par_salary' w='42897' x='54206' y='23750' />
+        <zone h='13036' id='11' mode='slider' name='par_salary' param='[federated.02si0cv1osee2y106vwwi1xcl13f].[none:Job Title:nk]' type-v2='filter' values='database' w='30467' x='53925' y='11250' />
+        <zone h='47500' id='16' name='country_salary' w='25701' x='27664' y='15179' />
         <zone h='37500' id='23' name='trend_salary' w='49720' x='1776' y='58571' />
-        <zone h='33214' id='24' name='an_desc' w='44579' x='53364' y='65000' />
+        <zone h='33214' id='24' name='an_desc' w='43551' x='53925' y='65000' />
         <zone h='11607' id='36' is-centered='0' param='Image/images.jpeg' type-v2='bitmap' w='12150' x='1495' y='14464' />
         <zone h='11786' id='38' name='Job Title' w='12150' x='1495' y='14286' />
-        <zone h='11786' id='42' is-centered='0' param='Image/images.jpeg' type-v2='bitmap' w='11963' x='14393' y='14464' />
-        <zone h='11607' id='43' name='Salary' w='12056' x='14393' y='14464' />
+        <zone forceUpdate='true' h='11607' id='42' is-centered='0' param='Image/images.jpeg' type-v2='bitmap' w='13364' x='14393' y='14464' />
+        <zone h='10714' id='43' name='Salary' w='15888' x='14393' y='14464' />
         <zone h='21429' id='46' name='Sheet 14' w='25047' x='1495' y='31786' />
       </zones>
       <devicelayouts>
         <devicelayout auto-generated='true' name='Phone'>
-          <size maxheight='1800' minheight='1800' sizing-mode='vscroll' />
+          <size maxheight='1750' minheight='1750' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='56' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='97142' id='55' param='vert' type-v2='layout-flow' w='98504' x='748' y='1429'>
+            <zone h='100000' id='68' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97142' id='67' param='vert' type-v2='layout-flow' w='98504' x='748' y='1429'>
                 <zone fixed-size='280' h='97142' id='33' is-fixed='true' name='Title' w='98504' x='748' y='1429'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -1392,15 +1396,6 @@
                   </zone-style>
                 </zone>
                 <zone h='7500' id='6' mode='compact' param='[Parameters].[Parameter 3]' type-v2='paramctrl' w='11682' x='85234' y='11607'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone fixed-size='280' h='51071' id='16' is-fixed='true' name='country_salary' w='26916' x='26449' y='11786'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -1427,7 +1422,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='66' h='11786' id='42' is-centered='0' is-fixed='true' param='Image/images.jpeg' type-v2='bitmap' w='11963' x='14393' y='14464'>
+                <zone fixed-size='65' forceUpdate='true' h='11607' id='42' is-centered='0' is-fixed='true' param='Image/images.jpeg' type-v2='bitmap' w='13364' x='14393' y='14464'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -1436,7 +1431,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='65' h='11607' id='43' is-fixed='true' name='Salary' w='12056' x='14393' y='14464'>
+                <zone fixed-size='60' h='10714' id='43' is-fixed='true' name='Salary' w='15888' x='14393' y='14464'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -1445,7 +1440,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone h='13036' id='11' mode='slider' name='par_salary' param='[federated.02si0cv1osee2y106vwwi1xcl13f].[none:Job Title:nk]' type-v2='filter' values='database' w='31308' x='53084' y='11250'>
+                <zone fixed-size='266' h='47500' id='16' is-fixed='true' name='country_salary' w='25701' x='27664' y='15179'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -1454,7 +1449,16 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='213' h='38036' id='1' is-fixed='true' name='par_salary' w='43645' x='53458' y='23750'>
+                <zone h='13036' id='11' mode='slider' name='par_salary' param='[federated.02si0cv1osee2y106vwwi1xcl13f].[none:Job Title:nk]' type-v2='filter' values='database' w='30467' x='53925' y='11250'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='213' h='38036' id='1' is-fixed='true' name='par_salary' w='42897' x='54206' y='23750'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -1481,7 +1485,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='186' h='33214' id='24' is-fixed='true' name='an_desc' w='44579' x='53364' y='65000'>
+                <zone fixed-size='186' h='33214' id='24' is-fixed='true' name='an_desc' w='43551' x='53925' y='65000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -1871,7 +1875,7 @@
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
-      <active id='46' />
+      <active id='6' />
       <simple-id uuid='{B684EF22-5488-4917-92AC-9747AEAFAB95}' />
     </window>
     <window class='dashboard' name='dash_stat_an'>
